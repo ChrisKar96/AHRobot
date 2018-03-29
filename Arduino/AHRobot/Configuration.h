@@ -26,8 +26,8 @@
 #define ACCEL_RAMP_MAX 10000
 
 // UNCOMMENT THIS LINES TO INVERT MOTORS
-#define INVERT_X_AXIS 1
-//#define INVERT_Y_AXIS 1  //Y-LEFT
+//#define INVERT_X_AXIS 1
+#define INVERT_Y_AXIS 1  //Y-LEFT
 //#define INVERT_Z_AXIS 1  //Y_RIGHT
 
 // Geometric calibration.
@@ -67,7 +67,7 @@
 // IMPORTANT: THIS VALUE IS FOR A 87.5 cm CARBON TUBE!!
 // Camera geometric calibration
 // Measure two known position (in mm) calculare the pixels on camera and generate divide: mm/pix
-#define CAM_PIX_TO_MM 1.48    // Camera scale To calculate, you need to measure two points with known coordinates
+#define CAM_PIX_TO_MM 1.5    // Camera scale To calculate, you need to measure two points with known coordinates
 
 // CORRECTION OF MISSING STEPS ON MOTORS
 // Coment this lines if you don´t want to make the corrections
